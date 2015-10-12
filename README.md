@@ -35,6 +35,7 @@ The output of this phase is a json file containing the pages and the injection p
 2.2 Payload generation
 
 • Input: Bug category.
+
 • Output: a JSON file(s) of all possible payloads.
 
 These payloads will be injected in the injection points that have been identified in the previous phase. This phase returns a set of exploits to be tested.
@@ -47,6 +48,7 @@ Information such as the Database type, version and the current server informatio
 2.3 Payload Injection
 
 • Input: Output of Phase 1 and Phase 2.
+
 • Output: a JSON file(s) of all possible exploits.
 
 The next step is to inject every payload generated in Phase 2 into the injection points discovered in Phase 1. After each injection, exploitable pairs (injection point, payload) are identified. The output of this phase would be the list of confirmed exploits in the website. A sample output is:
@@ -66,6 +68,7 @@ The next step is to inject every payload generated in Phase 2 into the injection
 2.4 Generate automated verification script
 
 • Input: Output of Phase 3
+
 • Output: list of Selenium scripts to automate the validated exploit.
 
 For each of the exploits identified in Phase 3, an automated script is generated which proves that the exploit is indeed vulnerable. Automated scripts are generated using selenium to make all the process automated.
