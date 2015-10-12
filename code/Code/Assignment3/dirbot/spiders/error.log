@@ -1,0 +1,101 @@
+Traceback (most recent call last):
+  File "/usr/bin/scrapy", line 9, in <module>
+    load_entry_point('Scrapy==0.24.5', 'console_scripts', 'scrapy')()
+  File "/usr/lib/pymodules/python2.7/scrapy/cmdline.py", line 109, in execute
+    settings = get_project_settings()
+  File "/usr/lib/pymodules/python2.7/scrapy/utils/project.py", line 60, in get_project_settings
+    settings.setmodule(settings_module_path, priority='project')
+  File "/usr/lib/pymodules/python2.7/scrapy/settings/__init__.py", line 109, in setmodule
+    module = import_module(module)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+ImportError: No module named dirbot.spiders.settings
+Traceback (most recent call last):
+  File "/usr/bin/scrapy", line 9, in <module>
+    load_entry_point('Scrapy==0.24.5', 'console_scripts', 'scrapy')()
+  File "/usr/lib/pymodules/python2.7/scrapy/cmdline.py", line 109, in execute
+    settings = get_project_settings()
+  File "/usr/lib/pymodules/python2.7/scrapy/utils/project.py", line 60, in get_project_settings
+    settings.setmodule(settings_module_path, priority='project')
+  File "/usr/lib/pymodules/python2.7/scrapy/settings/__init__.py", line 109, in setmodule
+    module = import_module(module)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+ImportError: No module named dirbot.spiders.settings
+Traceback (most recent call last):
+  File "/usr/bin/scrapy", line 9, in <module>
+    load_entry_point('Scrapy==0.24.5', 'console_scripts', 'scrapy')()
+  File "/usr/lib/pymodules/python2.7/scrapy/cmdline.py", line 109, in execute
+    settings = get_project_settings()
+  File "/usr/lib/pymodules/python2.7/scrapy/utils/project.py", line 60, in get_project_settings
+    settings.setmodule(settings_module_path, priority='project')
+  File "/usr/lib/pymodules/python2.7/scrapy/settings/__init__.py", line 109, in setmodule
+    module = import_module(module)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+ImportError: No module named dirbot.spiders.settings
+Traceback (most recent call last):
+  File "/usr/bin/scrapy", line 9, in <module>
+    load_entry_point('Scrapy==0.24.5', 'console_scripts', 'scrapy')()
+  File "/usr/lib/pymodules/python2.7/scrapy/cmdline.py", line 109, in execute
+    settings = get_project_settings()
+  File "/usr/lib/pymodules/python2.7/scrapy/utils/project.py", line 60, in get_project_settings
+    settings.setmodule(settings_module_path, priority='project')
+  File "/usr/lib/pymodules/python2.7/scrapy/settings/__init__.py", line 109, in setmodule
+    module = import_module(module)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+ImportError: No module named dirbot.spiders.settings
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "step4.py", line 98, in main
+    time.sleep(1)
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/usr/bin/scrapy", line 9, in <module>
+    load_entry_point('Scrapy==0.24.5', 'console_scripts', 'scrapy')()
+  File "/usr/lib/pymodules/python2.7/scrapy/cmdline.py", line 109, in execute
+    settings = get_project_settings()
+  File "/usr/lib/pymodules/python2.7/scrapy/utils/project.py", line 60, in get_project_settings
+    settings.setmodule(settings_module_path, priority='project')
+  File "/usr/lib/pymodules/python2.7/scrapy/settings/__init__.py", line 109, in setmodule
+    module = import_module(module)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+ImportError: No module named dirbot.spiders.settings
+Traceback (most recent call last):
+  File "/usr/bin/scrapy", line 9, in <module>
+    load_entry_point('Scrapy==0.24.5', 'console_scripts', 'scrapy')()
+  File "/usr/lib/pymodules/python2.7/scrapy/cmdline.py", line 109, in execute
+    settings = get_project_settings()
+  File "/usr/lib/pymodules/python2.7/scrapy/utils/project.py", line 60, in get_project_settings
+    settings.setmodule(settings_module_path, priority='project')
+  File "/usr/lib/pymodules/python2.7/scrapy/settings/__init__.py", line 109, in setmodule
+    module = import_module(module)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+ImportError: No module named dirbot.spiders.settings
+Traceback (most recent call last):
+  File "/usr/bin/scrapy", line 9, in <module>
+    load_entry_point('Scrapy==0.24.5', 'console_scripts', 'scrapy')()
+  File "/usr/lib/pymodules/python2.7/scrapy/cmdline.py", line 109, in execute
+    settings = get_project_settings()
+  File "/usr/lib/pymodules/python2.7/scrapy/utils/project.py", line 60, in get_project_settings
+    settings.setmodule(settings_module_path, priority='project')
+  File "/usr/lib/pymodules/python2.7/scrapy/settings/__init__.py", line 109, in setmodule
+    module = import_module(module)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+ImportError: No module named dirbot.spiders.settings
+Traceback (most recent call last):
+  File "/usr/bin/scrapy", line 9, in <module>
+    load_entry_point('Scrapy==0.24.5', 'console_scripts', 'scrapy')()
+  File "/usr/lib/pymodules/python2.7/scrapy/cmdline.py", line 109, in execute
+    settings = get_project_settings()
+  File "/usr/lib/pymodules/python2.7/scrapy/utils/project.py", line 60, in get_project_settings
+    settings.setmodule(settings_module_path, priority='project')
+  File "/usr/lib/pymodules/python2.7/scrapy/settings/__init__.py", line 109, in setmodule
+    module = import_module(module)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+ImportError: No module named dirbot.spiders.settings

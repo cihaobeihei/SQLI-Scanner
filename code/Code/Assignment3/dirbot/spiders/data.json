@@ -1,0 +1,20 @@
+[
+    {
+        "method": "POST", 
+        "param": {
+            "email": "", 
+            "password": ""
+        }, 
+        "url": "http://bm2.com/bm2/login.php"
+    }, 
+    {
+        "method": "", 
+        "param": {}, 
+        "url": "http://bm2.com/bm2/register.php"
+    }, 
+    {
+        "method": "", 
+        "param": {}, 
+        "url": "http://bm2.com/bm2/formhash(this.form, this.form.password)"
+    }
+]

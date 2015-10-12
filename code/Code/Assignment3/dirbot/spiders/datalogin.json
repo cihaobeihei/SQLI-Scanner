@@ -1,0 +1,10 @@
+[
+    {
+        "method": "GET", 
+        "param": {
+            "id": "", 
+            "username": ""
+        }, 
+        "url": "http://bm2.com/bm2/viewOrder.php"
+    }
+]

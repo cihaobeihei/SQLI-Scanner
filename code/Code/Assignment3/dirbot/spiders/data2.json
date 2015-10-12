@@ -1,0 +1,22 @@
+[
+    {
+        "method": "", 
+        "param": [
+            "bugid", 
+            "username", 
+            "password", 
+            "sendpass"
+        ], 
+        "url": "https://app4.com/bug.php"
+    },
+    {
+        "method": "", 
+        "param": [
+            "bugid", 
+            "username", 
+            "password", 
+            "sendpass"
+        ], 
+        "url": "https://app4.com/query.php"
+    }
+]

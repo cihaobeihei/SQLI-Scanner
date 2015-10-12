@@ -1,0 +1,439 @@
+2015-04-23 12:53:48+0800 [scrapy] INFO: Scrapy 0.24.5 started (bot: scrapybot)
+2015-04-23 12:53:48+0800 [scrapy] INFO: Optional features available: ssl, http11
+2015-04-23 12:53:48+0800 [scrapy] INFO: Overridden settings: {'DEFAULT_ITEM_CLASS': 'dirbot.items.Website', 'NEWSPIDER_MODULE': 'dirbot.spiders', 'SPIDER_MODULES': ['dirbot.spiders'], 'LOG_FILE': 'step1.log'}
+2015-04-23 12:53:48+0800 [scrapy] INFO: Enabled extensions: LogStats, TelnetConsole, CloseSpider, WebService, CoreStats, SpiderState
+2015-04-23 12:53:48+0800 [scrapy] INFO: Enabled downloader middlewares: HttpAuthMiddleware, DownloadTimeoutMiddleware, UserAgentMiddleware, RetryMiddleware, DefaultHeadersMiddleware, MetaRefreshMiddleware, HttpCompressionMiddleware, RedirectMiddleware, CookiesMiddleware, ChunkedTransferMiddleware, DownloaderStats
+2015-04-23 12:53:48+0800 [scrapy] INFO: Enabled spider middlewares: HttpErrorMiddleware, OffsiteMiddleware, RefererMiddleware, UrlLengthMiddleware, DepthMiddleware
+2015-04-23 12:53:48+0800 [scrapy] INFO: Enabled item pipelines: FilterWordsPipeline
+2015-04-23 12:53:48+0800 [step1] INFO: Spider opened
+2015-04-23 12:53:48+0800 [step1] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2015-04-23 12:53:48+0800 [scrapy] DEBUG: Telnet console listening on 127.0.0.1:6023
+2015-04-23 12:53:48+0800 [scrapy] DEBUG: Web service listening on 127.0.0.1:6080
+2015-04-23 12:53:48+0800 [step1] DEBUG: Redirecting (302) to <GET https://app4.com/> from <GET http://app4.com>
+2015-04-23 12:53:49+0800 [step1] DEBUG: Crawled (200) <GET https://app4.com/> (referer: None)
+2015-04-23 12:53:49+0800 [step1] DEBUG: Redirecting (302) to <GET https://app4.com/> from <GET http://app4.com>
+2015-04-23 12:53:49+0800 [step1] DEBUG: Crawled (200) <GET https://app4.com/> (referer: https://app4.com/)
+2015-04-23 12:53:49+0800 [step1] DEBUG: Filtered offsite request to 'github.com': <GET https://github.com/a-v-k/phpBugTracker>
+2015-04-23 12:53:49+0800 [step1] DEBUG: Crawled (200) <GET https://app4.com/query.php?op=doquery&status%5B%5D=1> (referer: https://app4.com/)
+2015-04-23 12:53:49+0800 [step1] DEBUG: Crawled (200) <GET https://app4.com/docs/html/userguide.html> (referer: https://app4.com/)
+2015-04-23 12:53:49+0800 [step1] DEBUG: Crawled (200) <GET https://app4.com/query.php?op=query> (referer: https://app4.com/)
+2015-04-23 12:53:49+0800 [step1] DEBUG: Crawled (200) <GET https://app4.com/query.php?op=query&form=advanced> (referer: https://app4.com/)
+2015-04-23 12:53:49+0800 [step1] DEBUG: Crawled (200) <GET https://app4.com/bug.php?op=add> (referer: https://app4.com/)
+2015-04-23 12:53:49+0800 [step1] DEBUG: Crawled (200) <GET https://app4.com/report.php> (referer: https://app4.com/)
+2015-04-23 12:53:49+0800 [step1] DEBUG: Crawled (200) <GET https://app4.com/newaccount.php> (referer: https://app4.com/)
+2015-04-23 12:53:49+0800 [step1] DEBUG: Filtered duplicate request: <GET https://app4.com/docs/html/userguide.html#PRIMER> - no more duplicates will be shown (see DUPEFILTER_DEBUG to show all duplicates)
+2015-04-23 12:53:49+0800 [step1] DEBUG: Crawled (200) <GET https://app4.com/query.php?order=resolution_name&sort=asc&page=1&op=doquery&status%5B%5D=1> (referer: https://app4.com/query.php?op=doquery&status%5B%5D=1)
+2015-04-23 12:53:49+0800 [step1] DEBUG: Crawled (200) <GET https://app4.com/index.php> (referer: https://app4.com/)
+2015-04-23 12:53:49+0800 [step1] DEBUG: Crawled (200) <GET https://app4.com/query.php?op=edit> (referer: https://app4.com/query.php?op=doquery&status%5B%5D=1)
+2015-04-23 12:53:49+0800 [step1] DEBUG: Crawled (200) <GET https://app4.com/query.php?order=status_name&sort=asc&page=1&op=doquery&status%5B%5D=1> (referer: https://app4.com/query.php?op=doquery&status%5B%5D=1)
+2015-04-23 12:53:49+0800 [step1] DEBUG: Crawled (200) <GET https://app4.com/query.php?order=priority_name&sort=asc&page=1&op=doquery&status%5B%5D=1> (referer: https://app4.com/query.php?op=doquery&status%5B%5D=1)
+2015-04-23 12:53:49+0800 [step1] DEBUG: Crawled (200) <GET https://app4.com/query.php?order=severity_name&sort=asc&page=1&op=doquery&status%5B%5D=1> (referer: https://app4.com/query.php?op=doquery&status%5B%5D=1)
+2015-04-23 12:53:49+0800 [step1] DEBUG: Crawled (200) <GET https://app4.com/query.php?order=owner&sort=asc&page=1&op=doquery&status%5B%5D=1> (referer: https://app4.com/query.php?op=doquery&status%5B%5D=1)
+2015-04-23 12:53:49+0800 [step1] DEBUG: Crawled (200) <GET https://app4.com/query.php?order=reporter&sort=asc&page=1&op=doquery&status%5B%5D=1> (referer: https://app4.com/query.php?op=doquery&status%5B%5D=1)
+2015-04-23 12:53:49+0800 [step1] DEBUG: Crawled (200) <GET https://app4.com/query.php?order=title&sort=asc&page=1&op=doquery&status%5B%5D=1> (referer: https://app4.com/query.php?op=doquery&status%5B%5D=1)
+2015-04-23 12:53:49+0800 [step1] DEBUG: Crawled (200) <GET https://app4.com/query.php?order=bug_id&sort=asc&page=1&op=doquery&status%5B%5D=1> (referer: https://app4.com/query.php?op=doquery&status%5B%5D=1)
+2015-04-23 12:53:49+0800 [step1] DEBUG: Crawled (200) <GET https://app4.com/docs/html/bugdetail.html> (referer: https://app4.com/docs/html/userguide.html)
+2015-04-23 12:53:49+0800 [step1] DEBUG: Crawled (200) <GET https://app4.com/docs/html/bugsearch.html> (referer: https://app4.com/docs/html/userguide.html)
+2015-04-23 12:53:49+0800 [step1] DEBUG: Crawled (200) <GET https://app4.com/docs/html/index.html> (referer: https://app4.com/docs/html/userguide.html)
+2015-04-23 12:53:49+0800 [step1] DEBUG: Crawled (200) <GET https://app4.com/query.php?order=owner&sort=asc&page=1&page=1&op=doquery&status%5B%5D=1> (referer: https://app4.com/query.php?order=resolution_name&sort=asc&page=1&op=doquery&status%5B%5D=1)
+2015-04-23 12:53:49+0800 [step1] DEBUG: Crawled (200) <GET https://app4.com/query.php?order=reporter&sort=asc&page=1&page=1&op=doquery&status%5B%5D=1> (referer: https://app4.com/query.php?order=resolution_name&sort=asc&page=1&op=doquery&status%5B%5D=1)
+2015-04-23 12:53:49+0800 [step1] DEBUG: Crawled (200) <GET https://app4.com/query.php?order=title&sort=asc&page=1&page=1&op=doquery&status%5B%5D=1> (referer: https://app4.com/query.php?order=resolution_name&sort=asc&page=1&op=doquery&status%5B%5D=1)
+2015-04-23 12:53:49+0800 [step1] DEBUG: Crawled (200) <GET https://app4.com/query.php?order=bug_id&sort=asc&page=1&page=1&op=doquery&status%5B%5D=1> (referer: https://app4.com/query.php?order=resolution_name&sort=asc&page=1&op=doquery&status%5B%5D=1)
+2015-04-23 12:53:49+0800 [step1] DEBUG: Crawled (200) <GET https://app4.com/query.php?order=reporter&sort=desc&page=1&page=1&op=doquery&status%5B%5D=1> (referer: https://app4.com/query.php?order=reporter&sort=asc&page=1&op=doquery&status%5B%5D=1)
+2015-04-23 12:53:49+0800 [step1] DEBUG: Crawled (200) <GET https://app4.com/query.php?order=owner&sort=desc&page=1&page=1&op=doquery&status%5B%5D=1> (referer: https://app4.com/query.php?order=owner&sort=asc&page=1&op=doquery&status%5B%5D=1)
+2015-04-23 12:53:49+0800 [step1] DEBUG: Crawled (200) <GET https://app4.com/query.php?order=severity_name&sort=desc&page=1&page=1&op=doquery&status%5B%5D=1> (referer: https://app4.com/query.php?order=severity_name&sort=asc&page=1&op=doquery&status%5B%5D=1)
+2015-04-23 12:53:49+0800 [step1] DEBUG: Crawled (200) <GET https://app4.com/query.php?order=priority_name&sort=desc&page=1&page=1&op=doquery&status%5B%5D=1> (referer: https://app4.com/query.php?order=priority_name&sort=asc&page=1&op=doquery&status%5B%5D=1)
+2015-04-23 12:53:49+0800 [step1] DEBUG: Crawled (200) <GET https://app4.com/query.php?order=resolution_name&sort=asc&page=1&page=1&op=doquery&status%5B%5D=1> (referer: https://app4.com/query.php?order=status_name&sort=asc&page=1&op=doquery&status%5B%5D=1)
+2015-04-23 12:53:49+0800 [step1] DEBUG: Crawled (200) <GET https://app4.com/query.php?order=status_name&sort=desc&page=1&page=1&op=doquery&status%5B%5D=1> (referer: https://app4.com/query.php?order=status_name&sort=asc&page=1&op=doquery&status%5B%5D=1)
+2015-04-23 12:53:49+0800 [step1] DEBUG: Crawled (200) <GET https://app4.com/query.php?order=resolution_name&sort=desc&page=1&page=1&op=doquery&status%5B%5D=1> (referer: https://app4.com/query.php?order=resolution_name&sort=asc&page=1&op=doquery&status%5B%5D=1)
+2015-04-23 12:53:49+0800 [step1] DEBUG: Crawled (200) <GET https://app4.com/query.php?order=status_name&sort=asc&page=1&page=1&op=doquery&status%5B%5D=1> (referer: https://app4.com/query.php?order=resolution_name&sort=asc&page=1&op=doquery&status%5B%5D=1)
+2015-04-23 12:53:49+0800 [step1] DEBUG: Crawled (200) <GET https://app4.com/query.php?order=priority_name&sort=asc&page=1&page=1&op=doquery&status%5B%5D=1> (referer: https://app4.com/query.php?order=resolution_name&sort=asc&page=1&op=doquery&status%5B%5D=1)
+2015-04-23 12:53:49+0800 [step1] DEBUG: Crawled (200) <GET https://app4.com/query.php?order=severity_name&sort=asc&page=1&page=1&op=doquery&status%5B%5D=1> (referer: https://app4.com/query.php?order=resolution_name&sort=asc&page=1&op=doquery&status%5B%5D=1)
+2015-04-23 12:53:49+0800 [step1] DEBUG: Crawled (200) <GET https://app4.com/docs/html/adminguide.html> (referer: https://app4.com/docs/html/bugdetail.html)
+2015-04-23 12:53:49+0800 [step1] DEBUG: Crawled (200) <GET https://app4.com/query.php?order=bug_id&sort=desc&page=1&page=1&op=doquery&status%5B%5D=1> (referer: https://app4.com/query.php?order=bug_id&sort=asc&page=1&op=doquery&status%5B%5D=1)
+2015-04-23 12:53:49+0800 [step1] DEBUG: Crawled (200) <GET https://app4.com/query.php?order=title&sort=desc&page=1&page=1&op=doquery&status%5B%5D=1> (referer: https://app4.com/query.php?order=title&sort=asc&page=1&op=doquery&status%5B%5D=1)
+2015-04-23 12:53:49+0800 [step1] DEBUG: Crawled (200) <GET https://app4.com/docs/html/schema.html> (referer: https://app4.com/docs/html/index.html)
+2015-04-23 12:53:49+0800 [step1] DEBUG: Crawled (200) <GET https://app4.com/docs/html/devstandards.html> (referer: https://app4.com/docs/html/index.html)
+2015-04-23 12:53:49+0800 [step1] DEBUG: Crawled (200) <GET https://app4.com/docs/html/devguide.html> (referer: https://app4.com/docs/html/index.html)
+2015-04-23 12:53:49+0800 [step1] DEBUG: Crawled (200) <GET https://app4.com/docs/html/configuration.html> (referer: https://app4.com/docs/html/index.html)
+2015-04-23 12:53:49+0800 [step1] DEBUG: Crawled (200) <GET https://app4.com/docs/html/installation.html> (referer: https://app4.com/docs/html/index.html)
+2015-04-23 12:53:49+0800 [step1] DEBUG: Filtered offsite request to 'smarty.php.net': <GET http://smarty.php.net/>
+2015-04-23 12:53:49+0800 [step1] DEBUG: Filtered offsite request to 'php.net': <GET http://php.net/manual/en/html/function.require-once.html>
+2015-04-23 12:53:49+0800 [step1] DEBUG: Filtered offsite request to 'www.sourceforge.net': <GET http://www.sourceforge.net/projects/phpbt/>
+2015-04-23 12:53:49+0800 [step1] DEBUG: Filtered offsite request to 'www.aditus.nu': <GET http://www.aditus.nu/jpgraph/>
+2015-04-23 12:53:49+0800 [step1] DEBUG: Filtered offsite request to 'www.php.net': <GET http://www.php.net/manual/function.date.php>
+2015-04-23 12:53:49+0800 [step1] INFO: Closing spider (finished)
+2015-04-23 12:53:49+0800 [step1] INFO: Dumping Scrapy stats:
+	{'downloader/request_bytes': 16541,
+	 'downloader/request_count': 46,
+	 'downloader/request_method_count/GET': 46,
+	 'downloader/response_bytes': 79933,
+	 'downloader/response_count': 46,
+	 'downloader/response_status_count/200': 44,
+	 'downloader/response_status_count/302': 2,
+	 'dupefilter/filtered': 7,
+	 'finish_reason': 'finished',
+	 'finish_time': datetime.datetime(2015, 4, 23, 4, 53, 49, 902758),
+	 'log_count/DEBUG': 55,
+	 'log_count/INFO': 7,
+	 'offsite/domains': 6,
+	 'offsite/filtered': 7,
+	 'request_depth_max': 5,
+	 'response_received_count': 44,
+	 'scheduler/dequeued': 46,
+	 'scheduler/dequeued/memory': 46,
+	 'scheduler/enqueued': 46,
+	 'scheduler/enqueued/memory': 46,
+	 'start_time': datetime.datetime(2015, 4, 23, 4, 53, 48, 753031)}
+2015-04-23 12:53:49+0800 [step1] INFO: Spider closed (finished)
+2015-04-23 12:57:41+0800 [scrapy] INFO: Scrapy 0.24.5 started (bot: scrapybot)
+2015-04-23 12:57:41+0800 [scrapy] INFO: Optional features available: ssl, http11
+2015-04-23 12:57:41+0800 [scrapy] INFO: Overridden settings: {'DEFAULT_ITEM_CLASS': 'dirbot.items.Website', 'NEWSPIDER_MODULE': 'dirbot.spiders', 'SPIDER_MODULES': ['dirbot.spiders'], 'LOG_FILE': 'step1.log'}
+2015-04-23 12:57:41+0800 [scrapy] INFO: Enabled extensions: LogStats, TelnetConsole, CloseSpider, WebService, CoreStats, SpiderState
+2015-04-23 12:57:41+0800 [scrapy] INFO: Enabled downloader middlewares: HttpAuthMiddleware, DownloadTimeoutMiddleware, UserAgentMiddleware, RetryMiddleware, DefaultHeadersMiddleware, MetaRefreshMiddleware, HttpCompressionMiddleware, RedirectMiddleware, CookiesMiddleware, ChunkedTransferMiddleware, DownloaderStats
+2015-04-23 12:57:41+0800 [scrapy] INFO: Enabled spider middlewares: HttpErrorMiddleware, OffsiteMiddleware, RefererMiddleware, UrlLengthMiddleware, DepthMiddleware
+2015-04-23 12:57:41+0800 [scrapy] INFO: Enabled item pipelines: FilterWordsPipeline
+2015-04-23 12:57:41+0800 [step1] INFO: Spider opened
+2015-04-23 12:57:41+0800 [step1] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2015-04-23 12:57:41+0800 [scrapy] DEBUG: Telnet console listening on 127.0.0.1:6023
+2015-04-23 12:57:41+0800 [scrapy] DEBUG: Web service listening on 127.0.0.1:6080
+2015-04-23 12:57:41+0800 [step1] DEBUG: Redirecting (302) to <GET https://app4.com/> from <GET http://app4.com>
+2015-04-23 12:57:45+0800 [step1] DEBUG: Crawled (200) <GET https://app4.com/> (referer: None)
+2015-04-23 12:57:45+0800 [step1] DEBUG: Redirecting (302) to <GET https://app4.com/> from <GET http://app4.com>
+2015-04-23 12:57:45+0800 [step1] DEBUG: Crawled (200) <GET https://app4.com/> (referer: https://app4.com/)
+2015-04-23 12:57:45+0800 [step1] DEBUG: Crawled (200) <GET https://app4.com/query.php?op=doquery&status%5B%5D=1> (referer: https://app4.com/)
+2015-04-23 12:57:45+0800 [step1] DEBUG: Crawled (200) <GET https://app4.com/docs/html/userguide.html> (referer: https://app4.com/)
+2015-04-23 12:57:45+0800 [step1] DEBUG: Crawled (200) <GET https://app4.com/index.php> (referer: https://app4.com/)
+2015-04-23 12:57:45+0800 [step1] DEBUG: Crawled (200) <GET https://app4.com/query.php?op=query> (referer: https://app4.com/)
+2015-04-23 12:57:45+0800 [step1] DEBUG: Crawled (200) <GET https://app4.com/bug.php?op=add> (referer: https://app4.com/)
+2015-04-23 12:57:45+0800 [step1] DEBUG: Crawled (200) <GET https://app4.com/newaccount.php> (referer: https://app4.com/)
+2015-04-23 12:57:45+0800 [step1] DEBUG: Crawled (200) <GET https://app4.com/report.php> (referer: https://app4.com/)
+2015-04-23 12:57:45+0800 [step1] DEBUG: Filtered duplicate request: <GET https://app4.com/docs/html/userguide.html#PRIMER> - no more duplicates will be shown (see DUPEFILTER_DEBUG to show all duplicates)
+2015-04-23 12:57:45+0800 [step1] DEBUG: Crawled (200) <GET https://app4.com/query.php?order=resolution_name&sort=asc&page=1&op=doquery&status%5B%5D=1> (referer: https://app4.com/query.php?op=doquery&status%5B%5D=1)
+2015-04-23 12:57:45+0800 [step1] DEBUG: Crawled (200) <GET https://app4.com/query.php?op=query&form=advanced> (referer: https://app4.com/)
+2015-04-23 12:57:45+0800 [step1] DEBUG: Crawled (200) <GET https://app4.com/query.php?op=edit> (referer: https://app4.com/query.php?op=doquery&status%5B%5D=1)
+2015-04-23 12:57:45+0800 [step1] DEBUG: Crawled (200) <GET https://app4.com/query.php?order=status_name&sort=asc&page=1&op=doquery&status%5B%5D=1> (referer: https://app4.com/query.php?op=doquery&status%5B%5D=1)
+2015-04-23 12:57:45+0800 [step1] DEBUG: Crawled (200) <GET https://app4.com/query.php?order=priority_name&sort=asc&page=1&op=doquery&status%5B%5D=1> (referer: https://app4.com/query.php?op=doquery&status%5B%5D=1)
+2015-04-23 12:57:45+0800 [step1] DEBUG: Crawled (200) <GET https://app4.com/query.php?order=severity_name&sort=asc&page=1&op=doquery&status%5B%5D=1> (referer: https://app4.com/query.php?op=doquery&status%5B%5D=1)
+2015-04-23 12:57:45+0800 [step1] DEBUG: Crawled (200) <GET https://app4.com/query.php?order=owner&sort=asc&page=1&op=doquery&status%5B%5D=1> (referer: https://app4.com/query.php?op=doquery&status%5B%5D=1)
+2015-04-23 12:57:45+0800 [step1] DEBUG: Crawled (200) <GET https://app4.com/query.php?order=reporter&sort=asc&page=1&op=doquery&status%5B%5D=1> (referer: https://app4.com/query.php?op=doquery&status%5B%5D=1)
+2015-04-23 12:57:45+0800 [step1] DEBUG: Crawled (200) <GET https://app4.com/query.php?order=title&sort=asc&page=1&op=doquery&status%5B%5D=1> (referer: https://app4.com/query.php?op=doquery&status%5B%5D=1)
+2015-04-23 12:57:45+0800 [step1] DEBUG: Crawled (200) <GET https://app4.com/query.php?order=bug_id&sort=asc&page=1&op=doquery&status%5B%5D=1> (referer: https://app4.com/query.php?op=doquery&status%5B%5D=1)
+2015-04-23 12:57:45+0800 [step1] DEBUG: Crawled (200) <GET https://app4.com/docs/html/bugdetail.html> (referer: https://app4.com/docs/html/userguide.html)
+2015-04-23 12:57:45+0800 [step1] DEBUG: Crawled (200) <GET https://app4.com/docs/html/bugsearch.html> (referer: https://app4.com/docs/html/userguide.html)
+2015-04-23 12:57:45+0800 [step1] DEBUG: Crawled (200) <GET https://app4.com/docs/html/index.html> (referer: https://app4.com/docs/html/userguide.html)
+2015-04-23 12:57:45+0800 [step1] DEBUG: Crawled (200) <GET https://app4.com/query.php?order=priority_name&sort=asc&page=1&page=1&op=doquery&status%5B%5D=1> (referer: https://app4.com/query.php?order=resolution_name&sort=asc&page=1&op=doquery&status%5B%5D=1)
+2015-04-23 12:57:45+0800 [step1] DEBUG: Crawled (200) <GET https://app4.com/query.php?order=severity_name&sort=asc&page=1&page=1&op=doquery&status%5B%5D=1> (referer: https://app4.com/query.php?order=resolution_name&sort=asc&page=1&op=doquery&status%5B%5D=1)
+2015-04-23 12:57:45+0800 [step1] DEBUG: Crawled (200) <GET https://app4.com/query.php?order=owner&sort=asc&page=1&page=1&op=doquery&status%5B%5D=1> (referer: https://app4.com/query.php?order=resolution_name&sort=asc&page=1&op=doquery&status%5B%5D=1)
+2015-04-23 12:57:45+0800 [step1] DEBUG: Crawled (200) <GET https://app4.com/query.php?order=reporter&sort=asc&page=1&page=1&op=doquery&status%5B%5D=1> (referer: https://app4.com/query.php?order=resolution_name&sort=asc&page=1&op=doquery&status%5B%5D=1)
+2015-04-23 12:57:45+0800 [step1] DEBUG: Crawled (200) <GET https://app4.com/query.php?order=title&sort=asc&page=1&page=1&op=doquery&status%5B%5D=1> (referer: https://app4.com/query.php?order=resolution_name&sort=asc&page=1&op=doquery&status%5B%5D=1)
+2015-04-23 12:57:45+0800 [step1] DEBUG: Crawled (200) <GET https://app4.com/query.php?order=bug_id&sort=asc&page=1&page=1&op=doquery&status%5B%5D=1> (referer: https://app4.com/query.php?order=resolution_name&sort=asc&page=1&op=doquery&status%5B%5D=1)
+2015-04-23 12:57:45+0800 [step1] DEBUG: Crawled (200) <GET https://app4.com/query.php?order=reporter&sort=desc&page=1&page=1&op=doquery&status%5B%5D=1> (referer: https://app4.com/query.php?order=reporter&sort=asc&page=1&op=doquery&status%5B%5D=1)
+2015-04-23 12:57:45+0800 [step1] DEBUG: Crawled (200) <GET https://app4.com/query.php?order=owner&sort=desc&page=1&page=1&op=doquery&status%5B%5D=1> (referer: https://app4.com/query.php?order=owner&sort=asc&page=1&op=doquery&status%5B%5D=1)
+2015-04-23 12:57:45+0800 [step1] DEBUG: Crawled (200) <GET https://app4.com/query.php?order=severity_name&sort=desc&page=1&page=1&op=doquery&status%5B%5D=1> (referer: https://app4.com/query.php?order=severity_name&sort=asc&page=1&op=doquery&status%5B%5D=1)
+2015-04-23 12:57:45+0800 [step1] DEBUG: Crawled (200) <GET https://app4.com/query.php?order=priority_name&sort=desc&page=1&page=1&op=doquery&status%5B%5D=1> (referer: https://app4.com/query.php?order=priority_name&sort=asc&page=1&op=doquery&status%5B%5D=1)
+2015-04-23 12:57:45+0800 [step1] DEBUG: Crawled (200) <GET https://app4.com/query.php?order=resolution_name&sort=asc&page=1&page=1&op=doquery&status%5B%5D=1> (referer: https://app4.com/query.php?order=status_name&sort=asc&page=1&op=doquery&status%5B%5D=1)
+2015-04-23 12:57:46+0800 [step1] DEBUG: Crawled (200) <GET https://app4.com/query.php?order=status_name&sort=desc&page=1&page=1&op=doquery&status%5B%5D=1> (referer: https://app4.com/query.php?order=status_name&sort=asc&page=1&op=doquery&status%5B%5D=1)
+2015-04-23 12:57:46+0800 [step1] DEBUG: Crawled (200) <GET https://app4.com/query.php?order=resolution_name&sort=desc&page=1&page=1&op=doquery&status%5B%5D=1> (referer: https://app4.com/query.php?order=resolution_name&sort=asc&page=1&op=doquery&status%5B%5D=1)
+2015-04-23 12:57:46+0800 [step1] DEBUG: Crawled (200) <GET https://app4.com/query.php?order=status_name&sort=asc&page=1&page=1&op=doquery&status%5B%5D=1> (referer: https://app4.com/query.php?order=resolution_name&sort=asc&page=1&op=doquery&status%5B%5D=1)
+2015-04-23 12:57:46+0800 [step1] DEBUG: Crawled (200) <GET https://app4.com/docs/html/adminguide.html> (referer: https://app4.com/docs/html/bugdetail.html)
+2015-04-23 12:57:46+0800 [step1] DEBUG: Crawled (200) <GET https://app4.com/query.php?order=bug_id&sort=desc&page=1&page=1&op=doquery&status%5B%5D=1> (referer: https://app4.com/query.php?order=bug_id&sort=asc&page=1&op=doquery&status%5B%5D=1)
+2015-04-23 12:57:46+0800 [step1] DEBUG: Crawled (200) <GET https://app4.com/query.php?order=title&sort=desc&page=1&page=1&op=doquery&status%5B%5D=1> (referer: https://app4.com/query.php?order=title&sort=asc&page=1&op=doquery&status%5B%5D=1)
+2015-04-23 12:57:46+0800 [step1] DEBUG: Crawled (200) <GET https://app4.com/docs/html/schema.html> (referer: https://app4.com/docs/html/index.html)
+2015-04-23 12:57:46+0800 [step1] DEBUG: Crawled (200) <GET https://app4.com/docs/html/devstandards.html> (referer: https://app4.com/docs/html/index.html)
+2015-04-23 12:57:46+0800 [step1] DEBUG: Crawled (200) <GET https://app4.com/docs/html/devguide.html> (referer: https://app4.com/docs/html/index.html)
+2015-04-23 12:57:46+0800 [step1] DEBUG: Crawled (200) <GET https://app4.com/docs/html/configuration.html> (referer: https://app4.com/docs/html/index.html)
+2015-04-23 12:57:46+0800 [step1] DEBUG: Crawled (200) <GET https://app4.com/docs/html/installation.html> (referer: https://app4.com/docs/html/index.html)
+2015-04-23 12:57:46+0800 [step1] DEBUG: Filtered offsite request to 'smarty.php.net': <GET http://smarty.php.net/>
+2015-04-23 12:57:46+0800 [step1] DEBUG: Filtered offsite request to 'php.net': <GET http://php.net/manual/en/html/function.require-once.html>
+2015-04-23 12:57:46+0800 [step1] DEBUG: Filtered offsite request to 'www.sourceforge.net': <GET http://www.sourceforge.net/projects/phpbt/>
+2015-04-23 12:57:46+0800 [step1] DEBUG: Filtered offsite request to 'www.aditus.nu': <GET http://www.aditus.nu/jpgraph/>
+2015-04-23 12:57:46+0800 [step1] DEBUG: Filtered offsite request to 'www.php.net': <GET http://www.php.net/manual/function.date.php>
+2015-04-23 12:57:46+0800 [step1] INFO: Closing spider (finished)
+2015-04-23 12:57:46+0800 [step1] INFO: Dumping Scrapy stats:
+	{'downloader/request_bytes': 16541,
+	 'downloader/request_count': 46,
+	 'downloader/request_method_count/GET': 46,
+	 'downloader/response_bytes': 77012,
+	 'downloader/response_count': 46,
+	 'downloader/response_status_count/200': 44,
+	 'downloader/response_status_count/302': 2,
+	 'dupefilter/filtered': 7,
+	 'finish_reason': 'finished',
+	 'finish_time': datetime.datetime(2015, 4, 23, 4, 57, 46, 231680),
+	 'log_count/DEBUG': 54,
+	 'log_count/INFO': 7,
+	 'offsite/domains': 5,
+	 'offsite/filtered': 6,
+	 'request_depth_max': 5,
+	 'response_received_count': 44,
+	 'scheduler/dequeued': 46,
+	 'scheduler/dequeued/memory': 46,
+	 'scheduler/enqueued': 46,
+	 'scheduler/enqueued/memory': 46,
+	 'start_time': datetime.datetime(2015, 4, 23, 4, 57, 41, 157918)}
+2015-04-23 12:57:46+0800 [step1] INFO: Spider closed (finished)
+2015-04-23 12:59:44+0800 [scrapy] INFO: Scrapy 0.24.5 started (bot: scrapybot)
+2015-04-23 12:59:44+0800 [scrapy] INFO: Optional features available: ssl, http11
+2015-04-23 12:59:44+0800 [scrapy] INFO: Overridden settings: {'DEFAULT_ITEM_CLASS': 'dirbot.items.Website', 'NEWSPIDER_MODULE': 'dirbot.spiders', 'SPIDER_MODULES': ['dirbot.spiders'], 'LOG_FILE': 'step1.log'}
+2015-04-23 12:59:44+0800 [scrapy] INFO: Enabled extensions: LogStats, TelnetConsole, CloseSpider, WebService, CoreStats, SpiderState
+2015-04-23 12:59:44+0800 [scrapy] INFO: Enabled downloader middlewares: HttpAuthMiddleware, DownloadTimeoutMiddleware, UserAgentMiddleware, RetryMiddleware, DefaultHeadersMiddleware, MetaRefreshMiddleware, HttpCompressionMiddleware, RedirectMiddleware, CookiesMiddleware, ChunkedTransferMiddleware, DownloaderStats
+2015-04-23 12:59:44+0800 [scrapy] INFO: Enabled spider middlewares: HttpErrorMiddleware, OffsiteMiddleware, RefererMiddleware, UrlLengthMiddleware, DepthMiddleware
+2015-04-23 12:59:44+0800 [scrapy] INFO: Enabled item pipelines: FilterWordsPipeline
+2015-04-23 12:59:44+0800 [step1] INFO: Spider opened
+2015-04-23 12:59:44+0800 [step1] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2015-04-23 12:59:44+0800 [scrapy] DEBUG: Telnet console listening on 127.0.0.1:6023
+2015-04-23 12:59:44+0800 [scrapy] DEBUG: Web service listening on 127.0.0.1:6080
+2015-04-23 12:59:44+0800 [step1] DEBUG: Redirecting (302) to <GET https://app4.com/> from <GET http://app4.com>
+2015-04-23 12:59:44+0800 [step1] DEBUG: Crawled (200) <GET https://app4.com/> (referer: None)
+2015-04-23 12:59:44+0800 [step1] DEBUG: Redirecting (302) to <GET https://app4.com/> from <GET http://app4.com>
+2015-04-23 12:59:44+0800 [step1] DEBUG: Crawled (200) <GET https://app4.com/> (referer: https://app4.com/)
+2015-04-23 12:59:44+0800 [step1] DEBUG: Filtered offsite request to 'github.com': <GET https://github.com/a-v-k/phpBugTracker>
+2015-04-23 12:59:44+0800 [step1] DEBUG: Crawled (200) <GET https://app4.com/query.php?op=doquery&status%5B%5D=1> (referer: https://app4.com/)
+2015-04-23 12:59:44+0800 [step1] DEBUG: Crawled (200) <GET https://app4.com/docs/html/userguide.html> (referer: https://app4.com/)
+2015-04-23 12:59:44+0800 [step1] DEBUG: Crawled (200) <GET https://app4.com/query.php?op=query> (referer: https://app4.com/)
+2015-04-23 12:59:44+0800 [step1] DEBUG: Crawled (200) <GET https://app4.com/query.php?op=query&form=advanced> (referer: https://app4.com/)
+2015-04-23 12:59:44+0800 [step1] DEBUG: Crawled (200) <GET https://app4.com/newaccount.php> (referer: https://app4.com/)
+2015-04-23 12:59:44+0800 [step1] DEBUG: Filtered duplicate request: <GET https://app4.com/docs/html/userguide.html#PRIMER> - no more duplicates will be shown (see DUPEFILTER_DEBUG to show all duplicates)
+2015-04-23 12:59:44+0800 [step1] DEBUG: Crawled (200) <GET https://app4.com/query.php?order=resolution_name&sort=asc&page=1&op=doquery&status%5B%5D=1> (referer: https://app4.com/query.php?op=doquery&status%5B%5D=1)
+2015-04-23 12:59:44+0800 [step1] DEBUG: Crawled (200) <GET https://app4.com/report.php> (referer: https://app4.com/)
+2015-04-23 12:59:44+0800 [step1] DEBUG: Crawled (200) <GET https://app4.com/query.php?op=edit> (referer: https://app4.com/query.php?op=doquery&status%5B%5D=1)
+2015-04-23 12:59:44+0800 [step1] DEBUG: Crawled (200) <GET https://app4.com/query.php?order=status_name&sort=asc&page=1&op=doquery&status%5B%5D=1> (referer: https://app4.com/query.php?op=doquery&status%5B%5D=1)
+2015-04-23 12:59:44+0800 [step1] DEBUG: Crawled (200) <GET https://app4.com/query.php?order=priority_name&sort=asc&page=1&op=doquery&status%5B%5D=1> (referer: https://app4.com/query.php?op=doquery&status%5B%5D=1)
+2015-04-23 12:59:44+0800 [step1] DEBUG: Crawled (200) <GET https://app4.com/query.php?order=severity_name&sort=asc&page=1&op=doquery&status%5B%5D=1> (referer: https://app4.com/query.php?op=doquery&status%5B%5D=1)
+2015-04-23 12:59:44+0800 [step1] DEBUG: Crawled (200) <GET https://app4.com/query.php?order=owner&sort=asc&page=1&op=doquery&status%5B%5D=1> (referer: https://app4.com/query.php?op=doquery&status%5B%5D=1)
+2015-04-23 12:59:44+0800 [step1] DEBUG: Crawled (200) <GET https://app4.com/query.php?order=reporter&sort=asc&page=1&op=doquery&status%5B%5D=1> (referer: https://app4.com/query.php?op=doquery&status%5B%5D=1)
+2015-04-23 12:59:44+0800 [step1] DEBUG: Crawled (200) <GET https://app4.com/query.php?order=title&sort=asc&page=1&op=doquery&status%5B%5D=1> (referer: https://app4.com/query.php?op=doquery&status%5B%5D=1)
+2015-04-23 12:59:44+0800 [step1] DEBUG: Crawled (200) <GET https://app4.com/query.php?order=bug_id&sort=asc&page=1&op=doquery&status%5B%5D=1> (referer: https://app4.com/query.php?op=doquery&status%5B%5D=1)
+2015-04-23 12:59:44+0800 [step1] DEBUG: Crawled (200) <GET https://app4.com/docs/html/bugdetail.html> (referer: https://app4.com/docs/html/userguide.html)
+2015-04-23 12:59:44+0800 [step1] DEBUG: Crawled (200) <GET https://app4.com/docs/html/bugsearch.html> (referer: https://app4.com/docs/html/userguide.html)
+2015-04-23 12:59:45+0800 [step1] DEBUG: Crawled (200) <GET https://app4.com/docs/html/index.html> (referer: https://app4.com/docs/html/userguide.html)
+2015-04-23 12:59:45+0800 [step1] DEBUG: Crawled (200) <GET https://app4.com/query.php?order=severity_name&sort=asc&page=1&page=1&op=doquery&status%5B%5D=1> (referer: https://app4.com/query.php?order=resolution_name&sort=asc&page=1&op=doquery&status%5B%5D=1)
+2015-04-23 12:59:45+0800 [step1] DEBUG: Crawled (200) <GET https://app4.com/query.php?order=owner&sort=asc&page=1&page=1&op=doquery&status%5B%5D=1> (referer: https://app4.com/query.php?order=resolution_name&sort=asc&page=1&op=doquery&status%5B%5D=1)
+2015-04-23 12:59:45+0800 [step1] DEBUG: Crawled (200) <GET https://app4.com/query.php?order=reporter&sort=asc&page=1&page=1&op=doquery&status%5B%5D=1> (referer: https://app4.com/query.php?order=resolution_name&sort=asc&page=1&op=doquery&status%5B%5D=1)
+2015-04-23 12:59:45+0800 [step1] DEBUG: Crawled (200) <GET https://app4.com/query.php?order=title&sort=asc&page=1&page=1&op=doquery&status%5B%5D=1> (referer: https://app4.com/query.php?order=resolution_name&sort=asc&page=1&op=doquery&status%5B%5D=1)
+2015-04-23 12:59:45+0800 [step1] DEBUG: Crawled (200) <GET https://app4.com/query.php?order=bug_id&sort=asc&page=1&page=1&op=doquery&status%5B%5D=1> (referer: https://app4.com/query.php?order=resolution_name&sort=asc&page=1&op=doquery&status%5B%5D=1)
+2015-04-23 12:59:45+0800 [step1] DEBUG: Crawled (200) <GET https://app4.com/query.php?order=severity_name&sort=desc&page=1&page=1&op=doquery&status%5B%5D=1> (referer: https://app4.com/query.php?order=severity_name&sort=asc&page=1&op=doquery&status%5B%5D=1)
+2015-04-23 12:59:45+0800 [step1] DEBUG: Crawled (200) <GET https://app4.com/query.php?order=priority_name&sort=desc&page=1&page=1&op=doquery&status%5B%5D=1> (referer: https://app4.com/query.php?order=priority_name&sort=asc&page=1&op=doquery&status%5B%5D=1)
+2015-04-23 12:59:45+0800 [step1] DEBUG: Crawled (200) <GET https://app4.com/query.php?order=resolution_name&sort=asc&page=1&page=1&op=doquery&status%5B%5D=1> (referer: https://app4.com/query.php?order=status_name&sort=asc&page=1&op=doquery&status%5B%5D=1)
+2015-04-23 12:59:45+0800 [step1] DEBUG: Crawled (200) <GET https://app4.com/query.php?order=status_name&sort=desc&page=1&page=1&op=doquery&status%5B%5D=1> (referer: https://app4.com/query.php?order=status_name&sort=asc&page=1&op=doquery&status%5B%5D=1)
+2015-04-23 12:59:45+0800 [step1] DEBUG: Crawled (200) <GET https://app4.com/query.php?order=resolution_name&sort=desc&page=1&page=1&op=doquery&status%5B%5D=1> (referer: https://app4.com/query.php?order=resolution_name&sort=asc&page=1&op=doquery&status%5B%5D=1)
+2015-04-23 12:59:45+0800 [step1] DEBUG: Crawled (200) <GET https://app4.com/query.php?order=title&sort=desc&page=1&page=1&op=doquery&status%5B%5D=1> (referer: https://app4.com/query.php?order=title&sort=asc&page=1&op=doquery&status%5B%5D=1)
+2015-04-23 12:59:45+0800 [step1] DEBUG: Crawled (200) <GET https://app4.com/query.php?order=reporter&sort=desc&page=1&page=1&op=doquery&status%5B%5D=1> (referer: https://app4.com/query.php?order=reporter&sort=asc&page=1&op=doquery&status%5B%5D=1)
+2015-04-23 12:59:45+0800 [step1] DEBUG: Crawled (200) <GET https://app4.com/query.php?order=owner&sort=desc&page=1&page=1&op=doquery&status%5B%5D=1> (referer: https://app4.com/query.php?order=owner&sort=asc&page=1&op=doquery&status%5B%5D=1)
+2015-04-23 12:59:45+0800 [step1] DEBUG: Crawled (200) <GET https://app4.com/docs/html/adminguide.html> (referer: https://app4.com/docs/html/bugdetail.html)
+2015-04-23 12:59:45+0800 [step1] DEBUG: Crawled (200) <GET https://app4.com/query.php?order=bug_id&sort=desc&page=1&page=1&op=doquery&status%5B%5D=1> (referer: https://app4.com/query.php?order=bug_id&sort=asc&page=1&op=doquery&status%5B%5D=1)
+2015-04-23 12:59:45+0800 [step1] DEBUG: Crawled (200) <GET https://app4.com/query.php?order=status_name&sort=asc&page=1&page=1&op=doquery&status%5B%5D=1> (referer: https://app4.com/query.php?order=resolution_name&sort=asc&page=1&op=doquery&status%5B%5D=1)
+2015-04-23 12:59:45+0800 [step1] DEBUG: Crawled (200) <GET https://app4.com/docs/html/schema.html> (referer: https://app4.com/docs/html/index.html)
+2015-04-23 12:59:45+0800 [step1] DEBUG: Filtered offsite request to 'smarty.php.net': <GET http://smarty.php.net/>
+2015-04-23 12:59:45+0800 [step1] DEBUG: Crawled (200) <GET https://app4.com/docs/html/devstandards.html> (referer: https://app4.com/docs/html/index.html)
+2015-04-23 12:59:45+0800 [step1] DEBUG: Crawled (200) <GET https://app4.com/docs/html/devguide.html> (referer: https://app4.com/docs/html/index.html)
+2015-04-23 12:59:45+0800 [step1] DEBUG: Crawled (200) <GET https://app4.com/docs/html/configuration.html> (referer: https://app4.com/docs/html/index.html)
+2015-04-23 12:59:45+0800 [step1] DEBUG: Crawled (200) <GET https://app4.com/docs/html/installation.html> (referer: https://app4.com/docs/html/index.html)
+2015-04-23 12:59:45+0800 [step1] DEBUG: Crawled (200) <GET https://app4.com/query.php?order=priority_name&sort=asc&page=1&page=1&op=doquery&status%5B%5D=1> (referer: https://app4.com/query.php?order=resolution_name&sort=asc&page=1&op=doquery&status%5B%5D=1)
+2015-04-23 12:59:45+0800 [step1] DEBUG: Filtered offsite request to 'php.net': <GET http://php.net/manual/en/html/function.require-once.html>
+2015-04-23 12:59:45+0800 [step1] DEBUG: Filtered offsite request to 'www.sourceforge.net': <GET http://www.sourceforge.net/projects/phpbt/>
+2015-04-23 12:59:45+0800 [step1] DEBUG: Filtered offsite request to 'www.aditus.nu': <GET http://www.aditus.nu/jpgraph/>
+2015-04-23 12:59:45+0800 [step1] DEBUG: Filtered offsite request to 'www.php.net': <GET http://www.php.net/manual/function.date.php>
+2015-04-23 12:59:45+0800 [step1] DEBUG: Crawled (200) <GET https://app4.com/bug.php?op=add> (referer: https://app4.com/)
+2015-04-23 12:59:45+0800 [step1] DEBUG: Crawled (200) <GET https://app4.com/index.php> (referer: https://app4.com/)
+2015-04-23 12:59:45+0800 [step1] INFO: Closing spider (finished)
+2015-04-23 12:59:45+0800 [step1] INFO: Dumping Scrapy stats:
+	{'downloader/request_bytes': 16541,
+	 'downloader/request_count': 46,
+	 'downloader/request_method_count/GET': 46,
+	 'downloader/response_bytes': 79934,
+	 'downloader/response_count': 46,
+	 'downloader/response_status_count/200': 44,
+	 'downloader/response_status_count/302': 2,
+	 'dupefilter/filtered': 7,
+	 'finish_reason': 'finished',
+	 'finish_time': datetime.datetime(2015, 4, 23, 4, 59, 45, 894999),
+	 'log_count/DEBUG': 55,
+	 'log_count/INFO': 7,
+	 'offsite/domains': 6,
+	 'offsite/filtered': 7,
+	 'request_depth_max': 5,
+	 'response_received_count': 44,
+	 'scheduler/dequeued': 46,
+	 'scheduler/dequeued/memory': 46,
+	 'scheduler/enqueued': 46,
+	 'scheduler/enqueued/memory': 46,
+	 'start_time': datetime.datetime(2015, 4, 23, 4, 59, 44, 237077)}
+2015-04-23 12:59:45+0800 [step1] INFO: Spider closed (finished)
+2015-04-23 13:01:40+0800 [scrapy] INFO: Scrapy 0.24.5 started (bot: scrapybot)
+2015-04-23 13:01:40+0800 [scrapy] INFO: Optional features available: ssl, http11
+2015-04-23 13:01:40+0800 [scrapy] INFO: Overridden settings: {'DEFAULT_ITEM_CLASS': 'dirbot.items.Website', 'NEWSPIDER_MODULE': 'dirbot.spiders', 'SPIDER_MODULES': ['dirbot.spiders'], 'LOG_FILE': 'step1.log'}
+2015-04-23 13:01:40+0800 [scrapy] INFO: Enabled extensions: LogStats, TelnetConsole, CloseSpider, WebService, CoreStats, SpiderState
+2015-04-23 13:01:40+0800 [scrapy] INFO: Enabled downloader middlewares: HttpAuthMiddleware, DownloadTimeoutMiddleware, UserAgentMiddleware, RetryMiddleware, DefaultHeadersMiddleware, MetaRefreshMiddleware, HttpCompressionMiddleware, RedirectMiddleware, CookiesMiddleware, ChunkedTransferMiddleware, DownloaderStats
+2015-04-23 13:01:40+0800 [scrapy] INFO: Enabled spider middlewares: HttpErrorMiddleware, OffsiteMiddleware, RefererMiddleware, UrlLengthMiddleware, DepthMiddleware
+2015-04-23 13:01:40+0800 [scrapy] INFO: Enabled item pipelines: FilterWordsPipeline
+2015-04-23 13:01:40+0800 [step1] INFO: Spider opened
+2015-04-23 13:01:40+0800 [step1] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2015-04-23 13:01:40+0800 [scrapy] DEBUG: Telnet console listening on 127.0.0.1:6023
+2015-04-23 13:01:40+0800 [scrapy] DEBUG: Web service listening on 127.0.0.1:6080
+2015-04-23 13:01:40+0800 [step1] DEBUG: Redirecting (302) to <GET https://app4.com/> from <GET http://app4.com>
+2015-04-23 13:01:40+0800 [step1] DEBUG: Crawled (200) <GET https://app4.com/> (referer: None)
+2015-04-23 13:01:40+0800 [step1] DEBUG: Redirecting (302) to <GET https://app4.com/> from <GET http://app4.com>
+2015-04-23 13:01:40+0800 [step1] DEBUG: Crawled (200) <GET https://app4.com/> (referer: https://app4.com/)
+2015-04-23 13:01:40+0800 [step1] DEBUG: Filtered offsite request to 'github.com': <GET https://github.com/a-v-k/phpBugTracker>
+2015-04-23 13:01:40+0800 [step1] DEBUG: Crawled (200) <GET https://app4.com/query.php?op=doquery&status%5B%5D=1> (referer: https://app4.com/)
+2015-04-23 13:01:40+0800 [step1] DEBUG: Crawled (200) <GET https://app4.com/docs/html/userguide.html> (referer: https://app4.com/)
+2015-04-23 13:01:40+0800 [step1] DEBUG: Crawled (200) <GET https://app4.com/query.php?op=query> (referer: https://app4.com/)
+2015-04-23 13:01:40+0800 [step1] DEBUG: Crawled (200) <GET https://app4.com/report.php> (referer: https://app4.com/)
+2015-04-23 13:01:40+0800 [step1] DEBUG: Filtered duplicate request: <GET https://app4.com/docs/html/userguide.html#PRIMER> - no more duplicates will be shown (see DUPEFILTER_DEBUG to show all duplicates)
+2015-04-23 13:01:40+0800 [step1] DEBUG: Crawled (200) <GET https://app4.com/newaccount.php> (referer: https://app4.com/)
+2015-04-23 13:01:40+0800 [step1] DEBUG: Crawled (200) <GET https://app4.com/query.php?order=resolution_name&sort=asc&page=1&op=doquery&status%5B%5D=1> (referer: https://app4.com/query.php?op=doquery&status%5B%5D=1)
+2015-04-23 13:01:40+0800 [step1] DEBUG: Crawled (200) <GET https://app4.com/bug.php?op=add> (referer: https://app4.com/)
+2015-04-23 13:01:40+0800 [step1] DEBUG: Crawled (200) <GET https://app4.com/query.php?op=edit> (referer: https://app4.com/query.php?op=doquery&status%5B%5D=1)
+2015-04-23 13:01:40+0800 [step1] DEBUG: Crawled (200) <GET https://app4.com/index.php> (referer: https://app4.com/)
+2015-04-23 13:01:40+0800 [step1] DEBUG: Crawled (200) <GET https://app4.com/query.php?op=query&form=advanced> (referer: https://app4.com/)
+2015-04-23 13:01:40+0800 [step1] DEBUG: Crawled (200) <GET https://app4.com/query.php?order=status_name&sort=asc&page=1&op=doquery&status%5B%5D=1> (referer: https://app4.com/query.php?op=doquery&status%5B%5D=1)
+2015-04-23 13:01:40+0800 [step1] DEBUG: Crawled (200) <GET https://app4.com/query.php?order=priority_name&sort=asc&page=1&op=doquery&status%5B%5D=1> (referer: https://app4.com/query.php?op=doquery&status%5B%5D=1)
+2015-04-23 13:01:40+0800 [step1] DEBUG: Crawled (200) <GET https://app4.com/query.php?order=severity_name&sort=asc&page=1&op=doquery&status%5B%5D=1> (referer: https://app4.com/query.php?op=doquery&status%5B%5D=1)
+2015-04-23 13:01:40+0800 [step1] DEBUG: Crawled (200) <GET https://app4.com/query.php?order=owner&sort=asc&page=1&op=doquery&status%5B%5D=1> (referer: https://app4.com/query.php?op=doquery&status%5B%5D=1)
+2015-04-23 13:01:40+0800 [step1] DEBUG: Crawled (200) <GET https://app4.com/query.php?order=reporter&sort=asc&page=1&op=doquery&status%5B%5D=1> (referer: https://app4.com/query.php?op=doquery&status%5B%5D=1)
+2015-04-23 13:01:40+0800 [step1] DEBUG: Crawled (200) <GET https://app4.com/query.php?order=title&sort=asc&page=1&op=doquery&status%5B%5D=1> (referer: https://app4.com/query.php?op=doquery&status%5B%5D=1)
+2015-04-23 13:01:40+0800 [step1] DEBUG: Crawled (200) <GET https://app4.com/query.php?order=bug_id&sort=asc&page=1&op=doquery&status%5B%5D=1> (referer: https://app4.com/query.php?op=doquery&status%5B%5D=1)
+2015-04-23 13:01:40+0800 [step1] DEBUG: Crawled (200) <GET https://app4.com/docs/html/bugdetail.html> (referer: https://app4.com/docs/html/userguide.html)
+2015-04-23 13:01:40+0800 [step1] DEBUG: Crawled (200) <GET https://app4.com/docs/html/bugsearch.html> (referer: https://app4.com/docs/html/userguide.html)
+2015-04-23 13:01:40+0800 [step1] DEBUG: Crawled (200) <GET https://app4.com/docs/html/index.html> (referer: https://app4.com/docs/html/userguide.html)
+2015-04-23 13:01:40+0800 [step1] DEBUG: Crawled (200) <GET https://app4.com/query.php?order=resolution_name&sort=desc&page=1&page=1&op=doquery&status%5B%5D=1> (referer: https://app4.com/query.php?order=resolution_name&sort=asc&page=1&op=doquery&status%5B%5D=1)
+2015-04-23 13:01:40+0800 [step1] DEBUG: Crawled (200) <GET https://app4.com/query.php?order=status_name&sort=asc&page=1&page=1&op=doquery&status%5B%5D=1> (referer: https://app4.com/query.php?order=resolution_name&sort=asc&page=1&op=doquery&status%5B%5D=1)
+2015-04-23 13:01:40+0800 [step1] DEBUG: Crawled (200) <GET https://app4.com/query.php?order=priority_name&sort=asc&page=1&page=1&op=doquery&status%5B%5D=1> (referer: https://app4.com/query.php?order=resolution_name&sort=asc&page=1&op=doquery&status%5B%5D=1)
+2015-04-23 13:01:40+0800 [step1] DEBUG: Crawled (200) <GET https://app4.com/query.php?order=severity_name&sort=asc&page=1&page=1&op=doquery&status%5B%5D=1> (referer: https://app4.com/query.php?order=resolution_name&sort=asc&page=1&op=doquery&status%5B%5D=1)
+2015-04-23 13:01:40+0800 [step1] DEBUG: Crawled (200) <GET https://app4.com/query.php?order=owner&sort=asc&page=1&page=1&op=doquery&status%5B%5D=1> (referer: https://app4.com/query.php?order=resolution_name&sort=asc&page=1&op=doquery&status%5B%5D=1)
+2015-04-23 13:01:40+0800 [step1] DEBUG: Crawled (200) <GET https://app4.com/query.php?order=reporter&sort=asc&page=1&page=1&op=doquery&status%5B%5D=1> (referer: https://app4.com/query.php?order=resolution_name&sort=asc&page=1&op=doquery&status%5B%5D=1)
+2015-04-23 13:01:40+0800 [step1] DEBUG: Crawled (200) <GET https://app4.com/query.php?order=title&sort=asc&page=1&page=1&op=doquery&status%5B%5D=1> (referer: https://app4.com/query.php?order=resolution_name&sort=asc&page=1&op=doquery&status%5B%5D=1)
+2015-04-23 13:01:40+0800 [step1] DEBUG: Crawled (200) <GET https://app4.com/query.php?order=bug_id&sort=asc&page=1&page=1&op=doquery&status%5B%5D=1> (referer: https://app4.com/query.php?order=resolution_name&sort=asc&page=1&op=doquery&status%5B%5D=1)
+2015-04-23 13:01:41+0800 [step1] DEBUG: Crawled (200) <GET https://app4.com/query.php?order=priority_name&sort=desc&page=1&page=1&op=doquery&status%5B%5D=1> (referer: https://app4.com/query.php?order=priority_name&sort=asc&page=1&op=doquery&status%5B%5D=1)
+2015-04-23 13:01:41+0800 [step1] DEBUG: Crawled (200) <GET https://app4.com/query.php?order=resolution_name&sort=asc&page=1&page=1&op=doquery&status%5B%5D=1> (referer: https://app4.com/query.php?order=status_name&sort=asc&page=1&op=doquery&status%5B%5D=1)
+2015-04-23 13:01:41+0800 [step1] DEBUG: Crawled (200) <GET https://app4.com/query.php?order=status_name&sort=desc&page=1&page=1&op=doquery&status%5B%5D=1> (referer: https://app4.com/query.php?order=status_name&sort=asc&page=1&op=doquery&status%5B%5D=1)
+2015-04-23 13:01:41+0800 [step1] DEBUG: Crawled (200) <GET https://app4.com/query.php?order=bug_id&sort=desc&page=1&page=1&op=doquery&status%5B%5D=1> (referer: https://app4.com/query.php?order=bug_id&sort=asc&page=1&op=doquery&status%5B%5D=1)
+2015-04-23 13:01:41+0800 [step1] DEBUG: Crawled (200) <GET https://app4.com/query.php?order=title&sort=desc&page=1&page=1&op=doquery&status%5B%5D=1> (referer: https://app4.com/query.php?order=title&sort=asc&page=1&op=doquery&status%5B%5D=1)
+2015-04-23 13:01:41+0800 [step1] DEBUG: Crawled (200) <GET https://app4.com/query.php?order=reporter&sort=desc&page=1&page=1&op=doquery&status%5B%5D=1> (referer: https://app4.com/query.php?order=reporter&sort=asc&page=1&op=doquery&status%5B%5D=1)
+2015-04-23 13:01:41+0800 [step1] DEBUG: Crawled (200) <GET https://app4.com/query.php?order=owner&sort=desc&page=1&page=1&op=doquery&status%5B%5D=1> (referer: https://app4.com/query.php?order=owner&sort=asc&page=1&op=doquery&status%5B%5D=1)
+2015-04-23 13:01:41+0800 [step1] DEBUG: Crawled (200) <GET https://app4.com/query.php?order=severity_name&sort=desc&page=1&page=1&op=doquery&status%5B%5D=1> (referer: https://app4.com/query.php?order=severity_name&sort=asc&page=1&op=doquery&status%5B%5D=1)
+2015-04-23 13:01:41+0800 [step1] DEBUG: Crawled (200) <GET https://app4.com/docs/html/schema.html> (referer: https://app4.com/docs/html/index.html)
+2015-04-23 13:01:41+0800 [step1] DEBUG: Crawled (200) <GET https://app4.com/docs/html/devstandards.html> (referer: https://app4.com/docs/html/index.html)
+2015-04-23 13:01:41+0800 [step1] DEBUG: Crawled (200) <GET https://app4.com/docs/html/devguide.html> (referer: https://app4.com/docs/html/index.html)
+2015-04-23 13:01:41+0800 [step1] DEBUG: Crawled (200) <GET https://app4.com/docs/html/configuration.html> (referer: https://app4.com/docs/html/index.html)
+2015-04-23 13:01:41+0800 [step1] DEBUG: Crawled (200) <GET https://app4.com/docs/html/installation.html> (referer: https://app4.com/docs/html/index.html)
+2015-04-23 13:01:41+0800 [step1] DEBUG: Crawled (200) <GET https://app4.com/docs/html/adminguide.html> (referer: https://app4.com/docs/html/bugdetail.html)
+2015-04-23 13:01:41+0800 [step1] DEBUG: Filtered offsite request to 'php.net': <GET http://php.net/manual/en/html/function.require-once.html>
+2015-04-23 13:01:41+0800 [step1] DEBUG: Filtered offsite request to 'www.sourceforge.net': <GET http://www.sourceforge.net/projects/phpbt/>
+2015-04-23 13:01:41+0800 [step1] DEBUG: Filtered offsite request to 'www.aditus.nu': <GET http://www.aditus.nu/jpgraph/>
+2015-04-23 13:01:41+0800 [step1] DEBUG: Filtered offsite request to 'www.php.net': <GET http://www.php.net/manual/function.date.php>
+2015-04-23 13:01:41+0800 [step1] DEBUG: Filtered offsite request to 'smarty.php.net': <GET http://smarty.php.net/>
+2015-04-23 13:01:41+0800 [step1] INFO: Closing spider (finished)
+2015-04-23 13:01:41+0800 [step1] INFO: Dumping Scrapy stats:
+	{'downloader/request_bytes': 16541,
+	 'downloader/request_count': 46,
+	 'downloader/request_method_count/GET': 46,
+	 'downloader/response_bytes': 79927,
+	 'downloader/response_count': 46,
+	 'downloader/response_status_count/200': 44,
+	 'downloader/response_status_count/302': 2,
+	 'dupefilter/filtered': 7,
+	 'finish_reason': 'finished',
+	 'finish_time': datetime.datetime(2015, 4, 23, 5, 1, 41, 247519),
+	 'log_count/DEBUG': 55,
+	 'log_count/INFO': 7,
+	 'offsite/domains': 6,
+	 'offsite/filtered': 7,
+	 'request_depth_max': 5,
+	 'response_received_count': 44,
+	 'scheduler/dequeued': 46,
+	 'scheduler/dequeued/memory': 46,
+	 'scheduler/enqueued': 46,
+	 'scheduler/enqueued/memory': 46,
+	 'start_time': datetime.datetime(2015, 4, 23, 5, 1, 40, 77999)}
+2015-04-23 13:01:41+0800 [step1] INFO: Spider closed (finished)
+2015-04-23 13:07:46+0800 [scrapy] INFO: Scrapy 0.24.5 started (bot: scrapybot)
+2015-04-23 13:07:46+0800 [scrapy] INFO: Optional features available: ssl, http11
+2015-04-23 13:07:46+0800 [scrapy] INFO: Overridden settings: {'DEFAULT_ITEM_CLASS': 'dirbot.items.Website', 'NEWSPIDER_MODULE': 'dirbot.spiders', 'SPIDER_MODULES': ['dirbot.spiders'], 'LOG_FILE': 'step1.log'}
+2015-04-23 13:07:46+0800 [scrapy] INFO: Enabled extensions: LogStats, TelnetConsole, CloseSpider, WebService, CoreStats, SpiderState
+2015-04-23 13:07:46+0800 [scrapy] INFO: Enabled downloader middlewares: HttpAuthMiddleware, DownloadTimeoutMiddleware, UserAgentMiddleware, RetryMiddleware, DefaultHeadersMiddleware, MetaRefreshMiddleware, HttpCompressionMiddleware, RedirectMiddleware, CookiesMiddleware, ChunkedTransferMiddleware, DownloaderStats
+2015-04-23 13:07:46+0800 [scrapy] INFO: Enabled spider middlewares: HttpErrorMiddleware, OffsiteMiddleware, RefererMiddleware, UrlLengthMiddleware, DepthMiddleware
+2015-04-23 13:07:46+0800 [scrapy] INFO: Enabled item pipelines: FilterWordsPipeline
+2015-04-23 13:07:46+0800 [step1] INFO: Spider opened
+2015-04-23 13:07:46+0800 [step1] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2015-04-23 13:07:46+0800 [scrapy] DEBUG: Telnet console listening on 127.0.0.1:6023
+2015-04-23 13:07:46+0800 [scrapy] DEBUG: Web service listening on 127.0.0.1:6080
+2015-04-23 13:07:46+0800 [step1] DEBUG: Redirecting (302) to <GET https://app4.com/> from <GET http://app4.com>
+2015-04-23 13:07:46+0800 [step1] DEBUG: Crawled (200) <GET https://app4.com/> (referer: None)
+2015-04-23 13:07:46+0800 [step1] DEBUG: Redirecting (302) to <GET https://app4.com/> from <GET http://app4.com>
+2015-04-23 13:07:46+0800 [step1] DEBUG: Crawled (200) <GET https://app4.com/> (referer: https://app4.com/)
+2015-04-23 13:07:47+0800 [step1] DEBUG: Filtered offsite request to 'github.com': <GET https://github.com/a-v-k/phpBugTracker>
+2015-04-23 13:07:47+0800 [step1] DEBUG: Crawled (200) <GET https://app4.com/query.php?op=doquery&status%5B%5D=1> (referer: https://app4.com/)
+2015-04-23 13:07:47+0800 [step1] DEBUG: Crawled (200) <GET https://app4.com/index.php> (referer: https://app4.com/)
+2015-04-23 13:07:47+0800 [step1] DEBUG: Crawled (200) <GET https://app4.com/docs/html/userguide.html> (referer: https://app4.com/)
+2015-04-23 13:07:47+0800 [step1] DEBUG: Crawled (200) <GET https://app4.com/query.php?op=query> (referer: https://app4.com/)
+2015-04-23 13:07:47+0800 [step1] DEBUG: Crawled (200) <GET https://app4.com/newaccount.php> (referer: https://app4.com/)
+2015-04-23 13:07:47+0800 [step1] DEBUG: Crawled (200) <GET https://app4.com/report.php> (referer: https://app4.com/)
+2015-04-23 13:07:47+0800 [step1] DEBUG: Crawled (200) <GET https://app4.com/query.php?op=edit> (referer: https://app4.com/query.php?op=doquery&status%5B%5D=1)
+2015-04-23 13:07:47+0800 [step1] DEBUG: Crawled (200) <GET https://app4.com/query.php?op=query&form=advanced> (referer: https://app4.com/)
+2015-04-23 13:07:47+0800 [step1] DEBUG: Crawled (200) <GET https://app4.com/bug.php?op=add> (referer: https://app4.com/)
+2015-04-23 13:07:47+0800 [step1] DEBUG: Filtered duplicate request: <GET https://app4.com/docs/html/userguide.html#PRIMER> - no more duplicates will be shown (see DUPEFILTER_DEBUG to show all duplicates)
+2015-04-23 13:07:47+0800 [step1] DEBUG: Crawled (200) <GET https://app4.com/query.php?order=resolution_name&sort=asc&page=1&op=doquery&status%5B%5D=1> (referer: https://app4.com/query.php?op=doquery&status%5B%5D=1)
+2015-04-23 13:07:47+0800 [step1] DEBUG: Crawled (200) <GET https://app4.com/query.php?order=status_name&sort=asc&page=1&op=doquery&status%5B%5D=1> (referer: https://app4.com/query.php?op=doquery&status%5B%5D=1)
+2015-04-23 13:07:47+0800 [step1] DEBUG: Crawled (200) <GET https://app4.com/query.php?order=priority_name&sort=asc&page=1&op=doquery&status%5B%5D=1> (referer: https://app4.com/query.php?op=doquery&status%5B%5D=1)
+2015-04-23 13:07:47+0800 [step1] DEBUG: Crawled (200) <GET https://app4.com/query.php?order=severity_name&sort=asc&page=1&op=doquery&status%5B%5D=1> (referer: https://app4.com/query.php?op=doquery&status%5B%5D=1)
+2015-04-23 13:07:47+0800 [step1] DEBUG: Crawled (200) <GET https://app4.com/query.php?order=owner&sort=asc&page=1&op=doquery&status%5B%5D=1> (referer: https://app4.com/query.php?op=doquery&status%5B%5D=1)
+2015-04-23 13:07:47+0800 [step1] DEBUG: Crawled (200) <GET https://app4.com/query.php?order=reporter&sort=asc&page=1&op=doquery&status%5B%5D=1> (referer: https://app4.com/query.php?op=doquery&status%5B%5D=1)
+2015-04-23 13:07:47+0800 [step1] DEBUG: Crawled (200) <GET https://app4.com/query.php?order=title&sort=asc&page=1&op=doquery&status%5B%5D=1> (referer: https://app4.com/query.php?op=doquery&status%5B%5D=1)
+2015-04-23 13:07:47+0800 [step1] DEBUG: Crawled (200) <GET https://app4.com/query.php?order=bug_id&sort=asc&page=1&op=doquery&status%5B%5D=1> (referer: https://app4.com/query.php?op=doquery&status%5B%5D=1)
+2015-04-23 13:07:47+0800 [step1] DEBUG: Crawled (200) <GET https://app4.com/docs/html/bugdetail.html> (referer: https://app4.com/docs/html/userguide.html)
+2015-04-23 13:07:47+0800 [step1] DEBUG: Crawled (200) <GET https://app4.com/docs/html/bugsearch.html> (referer: https://app4.com/docs/html/userguide.html)
+2015-04-23 13:07:47+0800 [step1] DEBUG: Crawled (200) <GET https://app4.com/docs/html/index.html> (referer: https://app4.com/docs/html/userguide.html)
+2015-04-23 13:07:47+0800 [step1] DEBUG: Crawled (200) <GET https://app4.com/query.php?order=resolution_name&sort=asc&page=1&page=1&op=doquery&status%5B%5D=1> (referer: https://app4.com/query.php?order=status_name&sort=asc&page=1&op=doquery&status%5B%5D=1)
+2015-04-23 13:07:47+0800 [step1] DEBUG: Crawled (200) <GET https://app4.com/query.php?order=status_name&sort=desc&page=1&page=1&op=doquery&status%5B%5D=1> (referer: https://app4.com/query.php?order=status_name&sort=asc&page=1&op=doquery&status%5B%5D=1)
+2015-04-23 13:07:47+0800 [step1] DEBUG: Crawled (200) <GET https://app4.com/query.php?order=priority_name&sort=asc&page=1&page=1&op=doquery&status%5B%5D=1> (referer: https://app4.com/query.php?order=status_name&sort=asc&page=1&op=doquery&status%5B%5D=1)
+2015-04-23 13:07:47+0800 [step1] DEBUG: Crawled (200) <GET https://app4.com/query.php?order=severity_name&sort=asc&page=1&page=1&op=doquery&status%5B%5D=1> (referer: https://app4.com/query.php?order=status_name&sort=asc&page=1&op=doquery&status%5B%5D=1)
+2015-04-23 13:07:47+0800 [step1] DEBUG: Crawled (200) <GET https://app4.com/query.php?order=owner&sort=asc&page=1&page=1&op=doquery&status%5B%5D=1> (referer: https://app4.com/query.php?order=status_name&sort=asc&page=1&op=doquery&status%5B%5D=1)
+2015-04-23 13:07:47+0800 [step1] DEBUG: Crawled (200) <GET https://app4.com/query.php?order=reporter&sort=asc&page=1&page=1&op=doquery&status%5B%5D=1> (referer: https://app4.com/query.php?order=resolution_name&sort=asc&page=1&op=doquery&status%5B%5D=1)
+2015-04-23 13:07:47+0800 [step1] DEBUG: Crawled (200) <GET https://app4.com/query.php?order=title&sort=asc&page=1&page=1&op=doquery&status%5B%5D=1> (referer: https://app4.com/query.php?order=resolution_name&sort=asc&page=1&op=doquery&status%5B%5D=1)
+2015-04-23 13:07:47+0800 [step1] DEBUG: Crawled (200) <GET https://app4.com/query.php?order=bug_id&sort=asc&page=1&page=1&op=doquery&status%5B%5D=1> (referer: https://app4.com/query.php?order=resolution_name&sort=asc&page=1&op=doquery&status%5B%5D=1)
+2015-04-23 13:07:47+0800 [step1] DEBUG: Crawled (200) <GET https://app4.com/query.php?order=bug_id&sort=desc&page=1&page=1&op=doquery&status%5B%5D=1> (referer: https://app4.com/query.php?order=bug_id&sort=asc&page=1&op=doquery&status%5B%5D=1)
+2015-04-23 13:07:47+0800 [step1] DEBUG: Crawled (200) <GET https://app4.com/query.php?order=title&sort=desc&page=1&page=1&op=doquery&status%5B%5D=1> (referer: https://app4.com/query.php?order=title&sort=asc&page=1&op=doquery&status%5B%5D=1)
+2015-04-23 13:07:47+0800 [step1] DEBUG: Crawled (200) <GET https://app4.com/query.php?order=reporter&sort=desc&page=1&page=1&op=doquery&status%5B%5D=1> (referer: https://app4.com/query.php?order=reporter&sort=asc&page=1&op=doquery&status%5B%5D=1)
+2015-04-23 13:07:47+0800 [step1] DEBUG: Crawled (200) <GET https://app4.com/query.php?order=owner&sort=desc&page=1&page=1&op=doquery&status%5B%5D=1> (referer: https://app4.com/query.php?order=owner&sort=asc&page=1&op=doquery&status%5B%5D=1)
+2015-04-23 13:07:47+0800 [step1] DEBUG: Crawled (200) <GET https://app4.com/query.php?order=severity_name&sort=desc&page=1&page=1&op=doquery&status%5B%5D=1> (referer: https://app4.com/query.php?order=severity_name&sort=asc&page=1&op=doquery&status%5B%5D=1)
+2015-04-23 13:07:47+0800 [step1] DEBUG: Crawled (200) <GET https://app4.com/query.php?order=priority_name&sort=desc&page=1&page=1&op=doquery&status%5B%5D=1> (referer: https://app4.com/query.php?order=priority_name&sort=asc&page=1&op=doquery&status%5B%5D=1)
+2015-04-23 13:07:47+0800 [step1] DEBUG: Crawled (200) <GET https://app4.com/query.php?order=resolution_name&sort=desc&page=1&page=1&op=doquery&status%5B%5D=1> (referer: https://app4.com/query.php?order=resolution_name&sort=asc&page=1&op=doquery&status%5B%5D=1)
+2015-04-23 13:07:47+0800 [step1] DEBUG: Crawled (200) <GET https://app4.com/docs/html/adminguide.html> (referer: https://app4.com/docs/html/bugdetail.html)
+2015-04-23 13:07:47+0800 [step1] DEBUG: Crawled (200) <GET https://app4.com/query.php?order=status_name&sort=asc&page=1&page=1&op=doquery&status%5B%5D=1> (referer: https://app4.com/query.php?order=resolution_name&sort=asc&page=1&op=doquery&status%5B%5D=1)
+2015-04-23 13:07:47+0800 [step1] DEBUG: Crawled (200) <GET https://app4.com/docs/html/schema.html> (referer: https://app4.com/docs/html/index.html)
+2015-04-23 13:07:47+0800 [step1] DEBUG: Crawled (200) <GET https://app4.com/docs/html/devstandards.html> (referer: https://app4.com/docs/html/index.html)
+2015-04-23 13:07:47+0800 [step1] DEBUG: Crawled (200) <GET https://app4.com/docs/html/devguide.html> (referer: https://app4.com/docs/html/index.html)
+2015-04-23 13:07:47+0800 [step1] DEBUG: Crawled (200) <GET https://app4.com/docs/html/configuration.html> (referer: https://app4.com/docs/html/index.html)
+2015-04-23 13:07:47+0800 [step1] DEBUG: Crawled (200) <GET https://app4.com/docs/html/installation.html> (referer: https://app4.com/docs/html/index.html)
+2015-04-23 13:07:47+0800 [step1] DEBUG: Filtered offsite request to 'smarty.php.net': <GET http://smarty.php.net/>
+2015-04-23 13:07:47+0800 [step1] DEBUG: Filtered offsite request to 'php.net': <GET http://php.net/manual/en/html/function.require-once.html>
+2015-04-23 13:07:47+0800 [step1] DEBUG: Filtered offsite request to 'www.sourceforge.net': <GET http://www.sourceforge.net/projects/phpbt/>
+2015-04-23 13:07:47+0800 [step1] DEBUG: Filtered offsite request to 'www.aditus.nu': <GET http://www.aditus.nu/jpgraph/>
+2015-04-23 13:07:47+0800 [step1] DEBUG: Filtered offsite request to 'www.php.net': <GET http://www.php.net/manual/function.date.php>
+2015-04-23 13:07:47+0800 [step1] INFO: Closing spider (finished)
+2015-04-23 13:07:47+0800 [step1] INFO: Dumping Scrapy stats:
+	{'downloader/request_bytes': 16529,
+	 'downloader/request_count': 46,
+	 'downloader/request_method_count/GET': 46,
+	 'downloader/response_bytes': 79930,
+	 'downloader/response_count': 46,
+	 'downloader/response_status_count/200': 44,
+	 'downloader/response_status_count/302': 2,
+	 'dupefilter/filtered': 7,
+	 'finish_reason': 'finished',
+	 'finish_time': datetime.datetime(2015, 4, 23, 5, 7, 47, 594336),
+	 'log_count/DEBUG': 55,
+	 'log_count/INFO': 7,
+	 'offsite/domains': 6,
+	 'offsite/filtered': 7,
+	 'request_depth_max': 5,
+	 'response_received_count': 44,
+	 'scheduler/dequeued': 46,
+	 'scheduler/dequeued/memory': 46,
+	 'scheduler/enqueued': 46,
+	 'scheduler/enqueued/memory': 46,
+	 'start_time': datetime.datetime(2015, 4, 23, 5, 7, 46, 384781)}
+2015-04-23 13:07:47+0800 [step1] INFO: Spider closed (finished)

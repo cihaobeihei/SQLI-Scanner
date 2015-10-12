@@ -1,0 +1,16 @@
+[
+    {
+        "http://bm2.com/bm2/login.php": [
+            {
+                "loginurl": "http://bm2.com/bm2/login.php", 
+                "params": [
+                    {
+                        "username": "admin@admin.com", 
+                        "password": "admin"
+                    }
+                ], 
+                "loginRequired": "true"
+            }
+        ]
+    }
+]

@@ -1,0 +1,16 @@
+python is done
+Status: 200
+1
+args [('email', 'admin@admin.com'), ('password', 'admin')]
+url http://bm2.com/bm2/includes/process_login.php
+after_login http://bm2.com/bm2/includes/process_login.php
+http://bm2.com/bm2/includes/process_login.php
+response end!!
+
+response http://bm2.com/bm2/includes/process_login.php
+posbaseUrl 27
+baseUrl http://bm2.com/bm2/includes/
+forms []
+onclick []
+[]
+sunny [{'url': 'http://bm2.com/bm2/viewOrder.php', 'method': 'GET', 'param': {'username': '', 'id': ''}}] :  [u'bm2.com']

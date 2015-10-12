@@ -1,0 +1,4 @@
+scraping...
+next app *******************************************
+[{u'http://bm1.com/bm1/login.php': [{u'loginurl': u'http://bm1.com/bm1/login.php', u'params': [{u'username': u'admin@admin.com', u'password': u'admin'}], 'loginRequired': 'true'}]}]
+None

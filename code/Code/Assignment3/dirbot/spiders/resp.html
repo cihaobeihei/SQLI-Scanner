@@ -1,0 +1,88 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+    <head>
+        <META HTTP-EQUIV="Expires" CONTENT="-1">
+        <title>Home - phpBugTracker</title>
+
+        <link rel="stylesheet" type="text/css" href="styles/default.css">
+        <link rel="stylesheet" type="text/css" href="styles/print.css" media="print">
+
+        <link rel="alternate stylesheet" type="text/css" href="styles/default.css" title="default">
+        <link rel="alternate stylesheet" type="text/css" href="styles/black.css"   title="black">
+        <link rel="alternate stylesheet" type="text/css" href="styles/print.css"   title="print">
+
+        <META http-equiv="Content-Type" content="text/html; charset=utf-8">    </head>
+    <body>
+                    <div class="UpdateNotifier">New version (1.7.4) of phpBugTracker released. Please download it at <a href="https://github.com/a-v-k/phpBugTracker">https://github.com/a-v-k/phpBugTracker</a></div>
+                <div class="NavBar">
+            <div class="nav FixedWidth">
+                <div class="header_line1">
+                    <div class="header_image">
+                        <div class="PhpBugTracker">phpBugTracker</div>
+                    </div>
+                    <div class="header_search">
+                        <form action="bug.php">
+                            <input type="hidden" name="op" value="show">
+                            Find Bug                            <input name="bugid" type="text" id="bugid" size="5">
+                            &nbsp;
+                        </form>
+                    </div>
+                </div>
+                <ul class="tabnav">
+                    <li><a href="index.php" style="border: none;">Home</a></li>
+                    <li><a href="bug.php?op=add">Add a New Bug</a></li>
+                    <li><a href="query.php?op=query">Basic Query</a></li>
+                    <li><a href="query.php?op=query&amp;form=advanced">Advanced Query</a></li>
+                    <li><a href="report.php">View Reports</a></li>
+                    <li><a href="newaccount.php">Create a New Account</a></li>                    <li><a href="docs/html/userguide.html">Help</a></li>
+                                    </ul>
+            </div>
+        </div>
+        <div class="ContentBar">
+                            <div class="personalarea FixedWidth">
+                    <form method="post" action="/index.php">
+                        &nbsp;
+                                                                                <div class="error">Invalid login</div>                            Email: <input type="text" name="username" class="bottomnavinput" value="">
+                            Password: <input type="password" name="password" class="bottomnavinput">
+                            <input type="hidden" name="dologin" value="1">
+                            <input type="submit" value="Login" class="bottomnavinput">
+                            <input type="submit" name="sendpass" value="Email Password" class="bottomnavinput" title="Forgot your password?  Have it sent to you">
+                                                                            &nbsp;
+                    </form>
+                </div>
+                                    <div class="FixedWidth" style="padding: 5px;">
+                <table border=0 width="100%">
+    <tr>
+        <td valign="top">
+            <b>Most recently changed bugs</b>
+            <br>
+            No bugs found            <br><br>
+            <b>Most recently closed bugs</b>
+            <br>
+            No bugs found                    </td>
+        <td valign="top" align="right"> 
+                            <b>Quick Stats</b>
+                <br>
+                <table class="bordertable">
+                    <tr>
+                        <th>Status</th>
+                        <th># bugs</th>
+                    </tr>
+                                                                <tr>
+                            <td><a href="query.php?op=doquery&amp;status[]=1">New Report</a></td>
+                            <td align="center">0</td>
+                        </tr>
+                                    </table>
+                    </td>
+    </tr>
+</table>
+<br/>
+    <table class="bordertable" style="width:99%; margin: 0 auto;">
+        <tr>
+            <th>Project</th><th>Open</th><th>Total</th>        </tr>
+            </table>
+            </div>
+        </div>
+
+    </body>
+</html>

