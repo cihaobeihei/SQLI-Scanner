@@ -1,0 +1,27 @@
+[{
+	"http://www.wsb.com/Assignment2/case22.php":
+	[{
+		"method": "POST",
+		"LoginRequired": "false",
+		"username": "",
+		"password": "",
+		"userID" : "",
+		"passID" : "",
+		"fieldID": "search",
+		"fieldValue": "1' or '1'='1",
+		"submitID": ""
+	}],
+	"http://www.wsb.com/Assignment2/case24.php" :
+	[{
+		"method": "POST",
+		"LoginRequired" : "false",
+		"username": "",
+		"password": "",
+		"userID": "",
+		"passID": "",
+		"loginButtonID": "",
+		"fieldID": "id",
+		"fieldValue": "1' or '1'='1",
+		"submitID": ""
+	}]
+}]
